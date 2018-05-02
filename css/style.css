@@ -1,0 +1,120 @@
+
+body{
+    background-image: URL("../img/dinnerTable.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    margin:5px;
+    font-family: 'Permanent Marker', cursive;
+    font-size:18px;
+}
+.box2{
+    height:550px;
+    width: 320px;
+    background-color:#96ceb4;
+    float: left;
+    border:2px solid white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 10px;
+}
+.box3{
+    height:700px;
+    width: 320px;
+    background-color:#96ceb4;
+    float: left;
+    border:2px solid white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 10px;
+}
+.box1{
+    height:190px;
+    width: 320px;
+    background-color:#96ceb4;
+    float: left;
+    border:2px solid white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 600px;
+    background-color: #ffcc5c;
+    border:2px solid white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #ffcc5c;
+    height:50px;
+    width: 500px;
+    clear:both;
+    border:2px solid white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.signup{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+   margin:5px;
+   border-radius: 10px;
+   background-color: #ff6f69;
+   height:390px;
+   width: 240px;
+   clear:both;
+   border:2px solid white;
+   margin-left: 150px;
+}
+.buffetImg{
+    /*this ones just a picture of a really nice dish*/
+    height:250px;
+    width:300px;
+    border:2px solid white;
+    margin-left:8px;
+    margin-top: 15px;
+}
+.NixHam{
+    /*this is nix, stevens dog*/
+    height:500px;
+    width:300px;
+    border:2px solid white;
+    margin-left:8px;
+} 
+/*nav found its way all the way down here!*/
+#navigation{
+    float:right;
+    background-color: #ff6f69;
+    height:30px;
+    width:350px;
+    border:2px solid white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 40px;
+    border-top-left-radius: 10em;
+}
+ #navigation li{
+    display:inline;
+    list-style: none;
+    float: right;
+ }
+#navigation>li:hover{
+    color:white;
+}
